@@ -1,0 +1,29 @@
+.st-course-info {
+    flex-direction: row;
+    overflow-x: scroll;
+    @include md-screen {
+        overflow-x: auto;
+    }
+    .list-group-item {
+        display: inline-block;
+        background-color: $light-bg;
+        border: 1px solid darken($light-bg, 2%);
+        text-transform: capitalize;
+    }
+    .list-group-item:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .list-group-item:last-child {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    .list-group-item.active {
+        z-index: 2;
+        color: $primary;
+        border-bottom: 1px solid $primary;
+        background: darken($light-bg, 2%);
+        
+    }
+}

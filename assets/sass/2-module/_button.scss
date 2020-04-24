@@ -1,0 +1,129 @@
+//Button
+.st-btn {
+	display: inline-block;
+	border: 1px solid transparent;
+	transition: all 0.3s ease;
+	&--secondary {
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 22px;
+		padding-right: 22px;
+		background: lighten(rgba($secondary, 0.3), 25%);
+		&:hover {
+			box-shadow: 0 5px 15px rgba($black, 0.1);
+			color: $white;
+			background: $secondary;
+		}
+	}
+	&--tertiary {
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 22px;
+		padding-right: 22px;
+		background: $custom-34;
+		color: $white;
+		&:hover {
+			box-shadow: 0 5px 25px rgba($black, 0.2);
+			color: $white;
+		}
+	}
+	&--outline {
+		padding-top: 13px;
+		padding-bottom: 13px;
+		padding-left: 22px;
+		padding-right: 22px;
+		border: 2px solid $heading-text;
+		text-transform: capitalize;
+		color: $heading-text;
+		&:hover {
+			color: $secondary;
+			border: 2px solid $secondary;
+		}
+	}
+	&--slim {
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+		padding-left: 22px;
+		padding-right: 22px;
+		background: $secondary;
+		text-transform: capitalize;
+		line-height: 1;
+	}
+	&--sm {
+		padding-top: 5px ;
+		padding-bottom: 5px ;
+		padding-left: 22px;
+		padding-right: 22px;
+		font-size: 14px;
+		text-transform: capitalize;
+		line-height: 1;
+	}
+	&--circle {
+		display: inline-block;
+		border: 1px solid $text;
+		transition: all 0.3s ease;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border-radius: 3px;
+		color: $text;
+		&:hover {
+			color: $white;
+			background: $secondary;
+			border: 1px solid $secondary;
+		}
+	}
+	&-link {
+		display: inline-block;
+		font-weight: 500;
+		&:hover {
+			text-decoration: none;
+		}
+		&--primary {
+			text-transform: capitalize;
+			color: $white;
+			&:hover {
+				color: white !important;
+			}
+		}
+
+		&--secondary {
+			text-transform: capitalize;
+			color: $white;
+			&:hover {
+				color: $secondary;
+			}
+		}
+		&--tertiary {
+			text-transform: capitalize;
+			color: $secondary;
+		}
+		&--default {
+			text-transform: capitalize;
+			color: $heading-text;
+			&.active {
+				color: $secondary;
+			}
+			&:hover {
+				color: $secondary;
+			}
+		}
+	}
+	&-icon {
+		margin-left: 5px;
+	}
+	&-rounded {
+		border-radius: 50px;
+	}
+	&-sm-round {
+		border-radius: 5px;
+	}
+	&-group {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		position: relative;
+		z-index: 9;
+	}
+}

@@ -1,0 +1,59 @@
+//Margin Top
+.t-mt-10 {
+    margin-top: 10px;
+}
+.t-mt-15 {
+    margin-top: 15px;
+}
+.t-mt-18 {
+    margin-top: 18px;
+}
+.t-mt-20 {
+    margin-top: 20px;
+}
+.t-mt-30 {
+    margin-top: 30px;
+}
+.t-mt-50 {
+    margin-top: 50px;
+}
+//Margin Bottom
+.t-mb-5 {
+    margin-bottom: 5px;
+}
+.t-mb-10 {
+    margin-bottom: 10px;
+}
+.t-mb-16 {
+    margin-bottom: 16px;
+}
+.t-mb-20 {
+    margin-bottom: 20px;
+}
+.t-mb-30 {
+    margin-bottom: 30px;
+}
+.t-mb-50 {
+    margin-bottom: 50px;
+}
+.t-mb-60 {
+    margin-bottom: 60px;
+}
+//Margin Right
+.t-md-mr-15 {
+    @include md-screen {
+        margin-right: 15px;
+    }
+}
+.t-mr-15 {
+    margin-right: 15px;
+}
+.t-mr-16 {
+    margin-right: 16px;
+}
+.t-mr-35 {
+    margin-right: 35px;
+}
+//Margin Left
+//Margin X
+//Margin Y

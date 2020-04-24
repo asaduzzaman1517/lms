@@ -1,0 +1,26 @@
+//Text Color
+.t-text-light {
+    color: $white;
+}
+.t-link-default {
+    color: $heading-text;
+    transition: all .3s ease;
+    &:hover {
+        color: $heading-text;
+        text-decoration: none;
+    }
+}
+.t-link {
+    color: $heading-text;
+    transition: all .3s ease;
+    &:hover {
+        color: $secondary;
+        text-decoration: none;
+    }
+}
+.t-text-primary {
+    color: $secondary;
+}
+.t-border-bottom {
+    border-bottom: 1px solid rgba($black, .1);
+}
